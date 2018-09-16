@@ -11,3 +11,4 @@ before_script:
 
 script:
   - nix-build travis.nix -A example
+  - nix builf -f ./release.nix testresults
